@@ -1,0 +1,25 @@
+div{
+    padding: 90px;
+    border: 8px solid black;
+    height: 80px;
+    width: 70px;
+    position: fixed;
+}
+
+.quadrado1{
+    background-color: tomato;
+    z-index: 3;
+}
+
+.quadrado2{
+    background-color: blueviolet;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+.quadrado3{
+    background-color: aqua;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
